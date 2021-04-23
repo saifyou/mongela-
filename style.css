@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+body
+{
+    font-family: 'Oswald', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.button1:hover 
+{
+    background-color: #45d6e9;
+    color: rgb(47, 50, 236);
+}
+
+.button2:hover 
+{
+    background-color: #45d6e9;
+    color: rgb(47, 50, 236);
+}
+
+.button3:hover 
+{
+    background-color: #45d6e9;
+    color: rgb(47, 50, 236);
+}
+
+.button4:hover 
+{
+    background-color: #e3f02e;
+    color: rgb(39, 60, 247);
+}
+
+.button5:hover 
+{
+    background-color: #e3f02e;
+    color: rgb(47, 50, 236);
+}
+
+.button6:hover 
+{
+    background-color: #e3f02e;
+    color: rgb(47, 50, 236);
+}
+
+.button7:hover 
+{
+    background-color: #4e75af;
+    color: rgb(6, 6, 7);
+}
+
+.button8:hover 
+{
+    background-color: #4e75af;
+    color: rgb(6, 6, 7);
+}
+
+.button9:hover 
+{
+    background-color:  #4e75af;
+    color: rgb(6, 6, 7);
+}
+
+
+.button1 
+{
+    background-color: #87adc7; /* Sky blue */
+    border-radius: 80px;
+    border: 2px solid #e7e7e7;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.button2 
+{
+    background-color:#87adc7; /* Sky blue */
+    border-radius: 80px;
+    border: 2px solid #e7e7e7;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button3 
+{
+    background-color: #87adc7; /* Sky blue */
+    border-radius: 80px;
+    border: 2px solid #e7e7e7;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button4 
+{
+    background-color: #d3db8b; /* Sky blue */
+    border-radius: 80px;
+    border: 2px solid #e7e7e7;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button5 
+{
+    background-color: #d3db8b; /* Sky blue */
+    border-radius: 80px;
+    border: 2px solid #e7e7e7;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button6 
+{
+    background-color: #d3db8b; /* Sky blue */
+    border-radius: 80px;
+    border: 2px solid #e7e7e7;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button7 
+{
+    background-color: #7a66d3d2; /* Sky blue */
+    border-radius: 80px;
+    border: 2px solid #e7e7e7;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button8 
+{
+    background-color: #7a66d3d2; /* Sky blue */
+    border-radius: 80px;
+    border: 2px solid #e7e7e7;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button9 
+{
+    background-color: #7a66d3d2; /* Sky blue */
+    border-radius: 80px;
+    border: 2px solid #e7e7e7;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+h1
+{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.para
+{
+    text-align: center;
+    border:solid;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #f2f2f2;
+}
+
+
+/* B.nav */
+nav
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+}
+nav h1
+{
+    font-size: 20px;
+}
+nav .onglette
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav .onglette p
+{
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+nav .onglette input
+{
+    margin: 8px 20px;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background-color:#f2f2f2;
+}
+/* F.nav
+
+/* Header */
+
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1
+{
+    font-size:40px;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* F.header */
+
+/* section principal */
+.main
+{
+    margin: 20px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-between ;
+}
+
+/* cartes */
+.cards
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards .card
+{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.cards .card img{
+    width: 300px;
+}
+
+.cards .card .card-header
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* F.cartes */
+
+/* F.sec princ /*
+
+/* Footer */
+footer
+{
+    margin-top: 100px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+}
+
+/* F.footer */
+
+@media screen and (max-width: 640px) 
+{
+    nav .onglette .link  nav h1
+    {
+        display: none;
+    }  
+    .cards .card
+    {
+        margin-left: 10px;
+    }
+    .cards .card img
+    {
+        width: 300px;
+    }  
+}
